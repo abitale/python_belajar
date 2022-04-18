@@ -23,3 +23,5 @@ cara membuat:
 	1) python -m venv venv_sesi_1
 	2) aktivasi dengan venv_sesi_1\Scripts\activate.bat
 	3) ketikkan command deactivate untuk keluar
+
+https://drive.google.com/drive/folders/1aOMDWoiNyOyJ1oLXzZZ7DRSz0YhdvM3z?usp=sharing

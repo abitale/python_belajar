@@ -1,0 +1,25 @@
+python (interpreter)
+Interpreter	
+	- Translates program one statement at a time.
+	- Interpreters usually take less amount of time to analyze the source code. However, the overall execution 	time is comparatively slower than compilers.
+	- No Object Code is generated, hence are memory efficient.
+	- Programming languages like JavaScript, Python, Ruby use interpreters.
+
+Compiler
+	- Scans the entire program and translates it as a whole into machine code.
+	- Compilers usually take a large amount of time to analyze the source code. However, the overall execution 	time is comparatively faster than interpreters.
+	- Generates Object Code which further requires linking, hence requires more memory.
+	- Programming languages like C, C++, Java use compilers.
+
+
+virtual environment atau isolated environment digunakan untuk dapat membuat project-project dengan versi library yang berbeda sesuai direktori environment dibuat
+
+macam-macam env yang ada pada python:
+	venv, pipenv, virtualenv
+
+yang digunakan venv karena sudah integrasi atau bawaan dari python sendiri
+
+cara membuat: 
+	1) python -m venv venv_sesi_1
+	2) aktivasi dengan venv_sesi_1\Scripts\activate.bat
+	3) ketikkan command deactivate untuk keluar

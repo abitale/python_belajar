@@ -9,6 +9,8 @@
 
 # dependencies
 /sesi01/venv_sesi_1
+/sesi03/venv_sesi3
+
 
 # profiling files
 chrome-profiler-events*.json

@@ -25,3 +25,7 @@ cara membuat:
 	3) ketikkan command deactivate untuk keluar
 
 https://drive.google.com/drive/folders/1aOMDWoiNyOyJ1oLXzZZ7DRSz0YhdvM3z?usp=sharing
+
+
+pip freeze > requirements.txt (membuat requirement berdasarkan library yang terdapat pada virtual environment)
+pip install -r requirements.txt (menginstall library yang dibutuhkan berdasarkan requirements yang telah dibuat)

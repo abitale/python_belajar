@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hellow</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    </head>
+    <body>
+        {% if name %}
+        <h1>Hello {{name.title()}}</h1>
+        {% else %}
+        <h1>Hello World</h1>
+        {% endif %}
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, facilis voluptatibus nulla expedita voluptatum voluptates, laboriosam corporis architecto ipsa labore at harum pariatur ad ea nostrum dolorum repudiandae, quibusdam distinctio.</p>
+        <table>
+            <tr>
+                <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, consequuntur similique at minima recusandae cumque itaque placeat a laborum sit, eligendi amet veritatis molestiae quibusdam incidunt labore ad! Deserunt, illo?</td>
+                <td>Veritatis eos quas odit voluptates deserunt facere hic explicabo commodi, iure expedita similique suscipit cumque quidem aut assumenda ex dolorum, obcaecati veniam enim quasi nulla! Cupiditate alias impedit doloremque provident.</td>
+            </tr>
+            <tr>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, voluptatibus explicabo ratione autem asperiores, unde fugiat ad nam vel doloremque, error aperiam cupiditate! Corporis odio unde dolorum corrupti debitis praesentium.</td>
+                <td>Veniam harum voluptate, eaque velit soluta porro explicabo dicta. Corrupti consectetur et rerum molestias eos incidunt ea ipsa, facilis odio aliquid alias, illum fugit impedit veniam quasi, dignissimos ullam aperiam.</td>
+            </tr>
+        </table>
+    </body>
+</html>

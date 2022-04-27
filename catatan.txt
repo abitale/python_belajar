@@ -29,3 +29,24 @@ https://drive.google.com/drive/folders/1aOMDWoiNyOyJ1oLXzZZ7DRSz0YhdvM3z?usp=sha
 
 pip freeze > requirements.txt (membuat requirement berdasarkan library yang terdapat pada virtual environment)
 pip install -r requirements.txt (menginstall library yang dibutuhkan berdasarkan requirements yang telah dibuat)
+
+
+Flask
+
+instance app perlu dibuat karena merupakan penghubung dimana instance tersebut yang akan menerima segala request.
+
+command prompt
+untuk menjalankan flask:
+	- flask run dengan cara set terlebih dahulu set FLASK_APP=app.py
+	- atau py app.py //perlu menuliskan code if __name__ == '__main__':
+
+untuk menyalakan debug:
+	- set FLASK_DEBUG=1
+	- atau menambahkan debug=true pada parameter app.run()
+
+powershell
+$env:FLASK_APP = "hello"  //set flask_app
+$env:FLASK_ENV = "development" //menyalakan debug
+
+cara mengirim request post via terminal cmd
+curl -d "(data / kosong)" localhost:5000/login
